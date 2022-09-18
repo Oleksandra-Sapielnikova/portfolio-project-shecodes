@@ -30,6 +30,26 @@ h2 {
   font-size: 64px;
 }
 
+.email-link {
+  text-align: center;
+}
+
+.email-link a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.social-media-icons i {
+  font-size: 30px;
+}
+
+.social-media-icons a {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
