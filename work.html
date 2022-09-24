@@ -27,27 +27,32 @@
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/css.css" />
+    <meta name="description" content="Some works that Oleksandra Sapielnikova worked on.">
     <title>Works of Oleksandra Sapielnikova</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-        <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
-        <img src="/images/cropped-logo.jpg" class="logo d-block d-md-none" alt="" />
-       </a>
+        <a href="/" title="Homepage">
+          <img src="/images/logo.png" class="logo d-none d-md-block" alt="Oleksandra's logo"/>
+          <img
+            src="/images/cropped-logo.jpg"
+            class="logo d-block d-md-none"
+            alt="Oleksandra's logo"
+          />
+        </a>
         <ul>
-          <li class="active">
-            <a href="/">Home</a>
+          <li>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Oleksandra Sapielnikova">About</a>
+          </li>
+          <li  class="active">
+            <a href="/work.html" title="Works of Oleksandra Sapielnikova">Works</a>
           </li>
           <li>
-            <a href="/work.html">Works</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contacts of Oleksandra Sapielnikova">Contact</a>
           </li>
         </ul>
       </nav>
@@ -56,23 +61,23 @@
       <div class="content work-page">
         <h1 class="mb-5 text-center">Take a look at what I've been working on!</h1>
         <div class="row">
-          <div class="col-md-6 mb-5">
-            <img src="/images/berlin1.png" class="img-fluid rounded-4 mb-3" alt="">
+          <div class="col-md-6 mb-5" id="berlin-project">
+            <img src="/images/berlin1.png" class="img-fluid rounded-4 mb-3" alt="Berlin project preview">
             <h3 class="text-center mb-0">Berlin Project</h3>
             <p class="work text-center text-muted">Built with HTML and CSS</p>
           </div>
-          <div class="col-md-6 mb-5">
-            <img src="/images/weather1.png" class="img-fluid rounded-4 mb-3" alt="">
+          <div class="col-md-6 mb-5" id="weather-project">
+            <img src="/images/weather1.png" class="img-fluid rounded-4 mb-3" alt="Weather App preview">
             <h3 class="text-center mb-0">Weather App Project</h3>
             <p class="work text-center text-muted">Built with HTML, CSS and JavaScript</p>
           </div>
-          <div class="col-md-6 mb-5">
-            <img src="/images/dictionary.png" class="img-fluid rounded-4 mb-3" alt="">
+          <div class="col-md-6 mb-5" id="dictionary-project">
+            <img src="/images/dictionary.png" class="img-fluid rounded-4 mb-3" alt="Dictonary App preview">
             <h3 class="text-center mb-0">Dictionary Project</h3>
             <p class="work text-center text-muted">Built with HTML, CSS and React</p>
           </div>
           <div class="col-md-6 mb-5">
-            <img src="/images/translation.png" class="img-fluid mb-3" alt="">
+            <img src="/images/translation.png" class="img-fluid mb-3" alt="Translation App preview">
             <h3 class="text-center mb-0">Translation App Project</h3>
             <p class="work text-center text-muted">Built with HTML, CSS and React</p>
           </div>
@@ -85,7 +90,7 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -113,6 +118,9 @@
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center text-muted mt-4">
+          This project was coded by Oleksandra Sapielnikova, and it's <a href="https://github.com/Oleksandra-Sapielnikova/portfolio-project-shecodes" target="_blank" title="open-source code">open-sourced</a>
+        </p>
       </footer>
     </div>
   </body>
